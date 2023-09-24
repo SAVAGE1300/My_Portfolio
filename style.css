@@ -1,0 +1,60 @@
+* {
+  scroll-behavior: smooth; }
+
+body {
+  position: relative; }
+  body ul {
+    background-color: rgba(1, 1, 1, 0);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    list-style-type: none;
+    z-index: 1;
+    top: 50%;
+    right: 5%;
+    width: 2%; }
+    body ul li {
+      width: 30px;
+      height: auto; }
+      body ul li a {
+        height: 30px;
+        border-radius: 50%;
+        color: red;
+        display: block;
+        text-decoration: none;
+        padding: 10%; }
+        body ul li a div {
+          width: 60%;
+          height: 60%;
+          background-color: gray;
+          border-radius: 50%;
+          margin: 0 auto; }
+      body ul li a:hover {
+        background-color: gray; }
+      body ul li a.activate {
+        background-color: gray; }
+  body main {
+    background-color: #1b1e21;
+    scroll-snap-type: y mandatory;
+    position: relative;
+    height: 100%;
+    overflow-y: scroll; }
+    body main .container-fluid {
+      position: relative;
+      padding: 5em;
+      min-height: 100vh;
+      overflow: hidden;
+      scroll-snap-align: center; }
+    body main .con1 {
+      background-color: black;
+      background-image: url("./img/sociopath.png");
+      background-attachment: fixed;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: 1000px 800px; }
+    body main .con2 {
+      background-color: red; }
+    body main .con3 {
+      background-color: yellow; }
+
+/*# sourceMappingURL=style.css.map */
