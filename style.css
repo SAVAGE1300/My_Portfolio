@@ -47,7 +47,7 @@ body {
       scroll-snap-align: center; }
     body main .con1 {
       background-color: black;
-      background-image: url("./img/sociopath.png");
+      background-image: url("./sociopath.png");
       background-attachment: fixed;
       background-position: left;
       background-repeat: no-repeat;
